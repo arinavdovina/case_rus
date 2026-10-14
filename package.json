@@ -1,0 +1,14 @@
+{
+  "name": "workshop-capsules",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/compose.mjs",
+    "start": "node scripts/compose.mjs && node scripts/dev.mjs",
+    "test": "node scripts/compose.mjs && node scripts/test.mjs && node scripts/test-games.mjs"
+  }
+}

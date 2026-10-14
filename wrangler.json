@@ -1,0 +1,8 @@
+{
+  "name": "workshop-capsules",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-10-13",
+  "build": {
+    "command": "npm run build"
+  }
+}
